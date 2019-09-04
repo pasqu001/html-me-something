@@ -1,0 +1,59 @@
+body{
+    background: linear-gradient( #D3D3D3, #2D3436);
+}
+
+.container{
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+    grid-auto-rows: repeat(300px);
+    padding: 30px;
+}
+img{
+    border-radius: 15%;
+    box-shadow: 2px 2px 20px #000000;
+}
+
+article{
+    display: inline-block;
+    width: 300px;
+    padding: 10px;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 10px;
+    color: #000000;
+    font-weight: 1000;
+    line-height: 2;
+}
+
+
+header {
+    width: 80%;
+    height: 130px;
+    text-align: center;
+    color: black;
+    font-size: 64px;
+    text-shadow:2px 2px 20px #2D3436;
+    color: #052F5F;
+    margin-left: 100px;
+    margin-top: 10px;
+    font-family: 'Press Start 2P', cursive;
+}
+
+footer{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    color: #98B6B1;
+    font-size: 40px;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.name{
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+a{
+    color: black;
+}
